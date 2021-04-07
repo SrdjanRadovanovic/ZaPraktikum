@@ -1,0 +1,121 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+  <title>Travel & Explore</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+ </head>
+<body>
+
+    <div class="prvi">
+	  <div class="navigacija">
+	     <nav>
+	     	<a href="index.html">Home |</a>
+		   <a href="About.html">About |</a>
+		   <a href="Bookings.html">Bookings |</a>
+		   <a href="Images.html">Images |</a>
+		   <a href="Tours.html">Tours |</a>
+		 </nav>
+	  </div>
+      <div class="zaglavlje">
+	  <center>
+	    <h1>Italy</h1>
+		<h2>Travel &amp; Explore</h2>
+		<h3> Travel to Italy offers you only the best.<br>
+		Homemade food, quality wine and the best possible experience.</h3>
+		<img class="welcome "src="slike/welcome.jpg">
+	
+	  </div>
+    </div>
+	<div class="drugi">
+	   <div class="Opis">
+	   <center>
+	   <h1>Virtual tourist</h1>
+	      <p>With our new-tech program,<br> feel the charm of Italy from your home with our virtual tourist walk!</p>
+		  <br><hr>
+	   </div>
+    </div>
+	<div class="treci">
+	   <div class="Opis">
+	     <center>
+	      <h1>Italian cousine</h1>
+		    <p>Italian cousine is among the highest rated in the world,<br> 
+			based upon the decades of homemade recepture which was saved and improved over the years.<br>
+			The offer is very rich, based upon natural ingredients and fresh vegetables<br>
+			it creates once in a lifetime experience!<br> 
+			</p><br><hr>
+	   </div>
+    </div>
+	<div class="cetvrti">
+    
+			<div class="logo">
+				<img src="https://cdn3.iconfinder.com/data/icons/logistics-glyph-black/2048/5131_-_Global_Flights-512.png" alt="logo">
+			</div>
+	  <div class="Opis">
+	  
+	       <center>
+		   <div class="prijava">
+		   <h1><span id="blink">Book your trip now!</span></h1>
+           <h3>Visit Sicily, Lombardy, Lazio and many more...</h3>
+			 <br>
+	       </div>
+	      <form>
+	         Name<br><input type="text" name="name" id="nameInput"><br>
+		     Email<br><input type="email" name="email" id="emailInput"><br>
+		     Password<br><input type="password" name="password" id="passInput"><br>
+	      </form>
+	      <button class="button" name="submit" onclick="otvoriModal()">Submit</button>
+	      <button class="button" name="reset" onclick="resetujFormu()">Reset</button><br>
+	      <center>
+	      <button id="vreme" onclick="displayDate()">The time is?</button>
+			</center>
+		<div id="my-modal" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="close" id="btnClose">&times;</span>
+					<h2>Reservation confirmation</h2>
+				</div>
+			    <div class="modal-body">
+			        <p>Reserved successfully!</p>
+			    </div>
+			    <div class="modal-footer">
+			    </div>
+   			</div>
+ 		 </div>
+
+		<div id="my-modal-validacija" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="close" id="btnCloseModalValidacija">&times;</span>
+					<h2>Error</h2>
+				</div>
+			    <div class="modal-body">
+			        <p>Please type your name!</p>
+			    </div>
+			    <div class="modal-footer">
+			    </div>
+   			</div>
+ 		 </div>
+	     </center>
+	  </div>
+	  <br>
+	     <center>
+		    <div class="footer">
+			Copyright &#169; 2020. |  Travel & Explore.com
+			</div>
+		 </center>
+	</div>
+	<script src="skripta.js"></script>
+	<script src="about.js"></script>
+	
+	<script type="text/javascript"> let headID = document.getElementsByTagName("head")[0]; let newCss = document.createElement('link'); newCss.rel = 'stylesheet'; newCss.type = 'text/css'; newCss.href = "https://botmake.io/embed/bot502756.css"; let newScript = document.createElement('script'); newScript.src = "https://botmake.io/embed/bot502756.js"; newScript.type = 'text/javascript'; headID.appendChild(newScript); headID.appendChild(newCss); </script> 
+	
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,98 @@
+ body {
+	background: url('https://wallpaperaccess.com/full/290404.png');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+
+}
+
+.booking {
+	background-image: url('https://a-static.besthdwallpaper.com/sunset-in-the-sea-beach-wallpaper-5120x2160-2548_16.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 500px;
+	width: auto;
+	border: 5px solid black;
+	margin-top: 100px;
+	padding-top: 100px;
+	margin-bottom: 300px;
+	}
+
+.navigacija {
+font-family: Segoe Print;
+font-weight:bold;
+right:0;
+width:50%;
+height:40px;
+text-align:center;
+float:left; 
+position:fixed;
+top:0;
+
+
+}
+.navigacija a{
+	color:white;
+	float:right;
+	width:15%;
+    
+} 
+.navigacija a:hover {
+	color:#DDA0DD;
+}
+
+
+.footer {
+background-color:black;
+color:white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size:18px;
+padding:10px; 
+border:1px solid black;
+margin-bottom: 0%;
+}
+
+* {
+	margin: 0px;
+}
+
+h1 {
+	font-size:75px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+.button {
+	width:10%;
+	color:white;
+text-decoration:none;
+margin-top:4px;
+padding:15px;
+font-size:20px;	
+background:transparent;
+border-radius:10%;
+border: 1px solid black;
+text-shadow:1px 1px black ;
+line-height: 20px; 
+font-family:Tahoma;
+box-shadow: 0 4px black ;
+}	
+
+.button:hover{
+	color:white;
+	background:red;
+}
+
+input {
+	background:#;
+	border:1px solid black;
+	width:30%;
+	height:5%;
+	box-shadow: 0 3px black;
+	font-weight: bold;
+	padding: 10px;
+}
